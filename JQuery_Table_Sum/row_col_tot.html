@@ -1,0 +1,93 @@
+<html>
+<head>
+	<style type="text/css">
+		table {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		th, td{ 
+			padding: 5px; 
+		}
+		td:nth-child(1n+2){
+			text-align: right;
+		}
+	</style>
+</head>
+<body>
+	<h2>Auto Sum - Row & Column</h2>
+	<p>Let us assume that you are the account manager for four of your friend, namely Ashok, Divya, Karan, Sara (common Indian Names). All of them have purchased some shares of the four tech giants. Now you need to want to calculate the row and column total to get the final figures.</p>
+	<hr><br>
+	<table border="2px solid black">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Apple</th>
+				<th>Facebook</th>
+				<th>Google</th>
+				<th>Microsoft</th>
+				<th>Total</th>
+			</tr>				
+		</thead>
+		<tbody>
+			<tr class="data_row">
+				<td>Ashok</td>
+				<td data-row="ashok" data-col="apple">550</td>
+				<td data-row="ashok" data-col="fb">1700</td>
+				<td data-row="ashok" data-col="google">600</td>
+				<td data-row="ashok" data-col="ms">0</td>
+				<td data-row-tot="ashok_tot" data-col="row_tot"></td>
+			</tr>
+			<tr class="data_row">
+				<td>Divya</td>
+				<td data-row="divya" data-col="apple">1300</td>
+				<td data-row="divya" data-col="fb">450</td>
+				<td data-row="divya" data-col="google">700</td>
+				<td data-row="divya" data-col="ms">3400</td>
+				<td data-row-tot="divya_tot" data-col="row_tot"></td>
+			</tr>
+			<tr class="data_row">
+				<td>Karan</td>
+				<td data-row="karan" data-col="apple">600</td>
+				<td data-row="karan" data-col="fb">750</td>
+				<td data-row="karan" data-col="google">250</td>
+				<td data-row="karan" data-col="ms">900</td>
+				<td data-row-tot="karan_tot" data-col="row_tot"></td>
+			</tr>
+			<tr class="data_row">
+				<td>Sara</td>
+				<td data-row="sara" data-col="apple">3000</td>
+				<td data-row="sara" data-col="fb">50</td>
+				<td data-row="sara" data-col="google">4500</td>
+				<td data-row="sara" data-col="ms">150</td>
+				<td data-row-tot="sara_tot" data-col="row_tot"></td>
+			</tr>
+			<tr class="data_row">
+				<td style="font-weight: bold;">Total</td>
+				<td data-col-tot="apple_tot"></td>
+				<td data-col-tot="fb_tot"></td>
+				<td data-col-tot="google_tot"></td>
+				<td data-col-tot="ms_tot"></td>
+				<td data-col-tot="row_tot_tot"></td>
+			</tr>
+		</tbody>
+	</table>
+
+<script src="jquery-3.5.1.min.js"></script>
+<script src="table_sum.js"></script>
+
+<script type="text/javascript">
+row_total('ashok','ashok_tot');
+row_total('divya','divya_tot');
+row_total('karan','karan_tot');
+row_total('sara','sara_tot');
+
+col_total("apple", "apple_tot");
+col_total("fb", "fb_tot");
+col_total("google", "google_tot");
+col_total("ms", "ms_tot");
+
+col_total("row_tot", "row_tot_tot");
+</script>
+
+</body>
+</html>
