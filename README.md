@@ -1,4 +1,4 @@
-# Get Sum of Rows and Columns in a HTML Table
+# Get Total / Sum of Rows and Columns in a HTML Table
 
 ##### After going through multiple scripts on the internet, here is a highly organized script to get sum of rows and columns in a HTML Table.
 
