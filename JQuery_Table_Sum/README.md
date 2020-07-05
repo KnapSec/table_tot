@@ -35,11 +35,11 @@ Use `<td data-col-tot="[col_name_tot]">` instead of `<td>`.
 
 To include a row total element in column sum (used for last column element i.e. the row sum), 
 Use `<td data-row-tot="[row_name_tot]" data-col="[col_name]">` instead of `<td>` for every element.
-- In this case I prefer `[col_name]` to be `**row_sum**`.
+- In this case I prefer `[col_name]` to be **`row_sum`**.
 
 To get column total of the last column (i.e. the sum of all the row sums),
 Use `<td data-col-tot="[col_name_tot]">` instead of `<td>`.
-- In this case I prefer `[col_name_tot]` to be `**row_sum_tot**`.
+- In this case I prefer `[col_name_tot]` to be **`row_sum_tot`**.
 
 
 > JS Part:
