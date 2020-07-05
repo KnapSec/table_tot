@@ -16,7 +16,11 @@
 
 > HTML Part:
 
-	Use ```html<tr class="data_row">``` instead of ```html<tr>``` for rows that include the data (including the last row that contains column total).
+	Use 
+	```html
+	<tr class="data_row">
+	``` 
+	instead of ```html<tr>``` for rows that include the data (including the last row that contains column total).
 
 	To include an element in row sum, 
 	Use <td data-row="[row_name]"> instead of <td> for every element.
