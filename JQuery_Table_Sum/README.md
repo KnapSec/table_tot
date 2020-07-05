@@ -16,40 +16,39 @@
 
 > HTML Part:
 
-	Use <tr class="data_row"> instead of <tr> for rows that include the data (including the last row that contains column total).
+	>Use <tr class="data_row"> instead of <tr> for rows that include the data (including the last row that contains column total).
 
 	To include an element in row sum, 
-	Use <td data-row="[row_name]"> instead of <td> for every element.
+	>Use <td data-row="[row_name]"> instead of <td> for every element.
 
 	To include an element in column sum, 
-	Use <td data-col="[col_name]"> instead of <td> for every element.
+	>Use <td data-col="[col_name]"> instead of <td> for every element.
 
 	To include an element in row and column sum, 
-	Use <td data-row="[row_name]" data-col="[col_name]"> instead of <td> for every element.
+	>Use <td data-row="[row_name]" data-col="[col_name]"> instead of <td> for every element.
 
 	To get row total in a element,
-	Use <td data-row-tot="[row_name_tot]"> instead of <td>.
+	>Use <td data-row-tot="[row_name_tot]"> instead of <td>.
 
 	To get column total in a element,
-	Use <td data-col-tot="[col_name_tot]"> instead of <td>.
+	>Use <td data-col-tot="[col_name_tot]"> instead of <td>.
 
 	To include a row total element in column sum (used for last column element i.e. the row sum), 
-	Use <td data-row-tot="[row_name_tot]" data-col="[col_name]"> instead of <td> for every element.
-		I prefer this [col_name] to be 'row_sum'.
+	>Use <td data-row-tot="[row_name_tot]" data-col="[col_name]"> instead of <td> for every element.
+	I prefer this [col_name] to be 'row_sum'.
 
 	To get column total of the last column (i.e. the sum of all the row sums),
-	Use <td data-col-tot="[col_name_tot]"> instead of <td>.
-		I prefer the [col_name_tot] to be 'row_sum_tot'.
+	>Use <td data-col-tot="[col_name_tot]"> instead of <td>.
+	I prefer the [col_name_tot] to be 'row_sum_tot'.
 
 
 > JS Part:
-
-	```html
-	<script type="text/javascript">
-	row_total('[row_name]', '[row_name_tot]');
-	col_total('[col_name]', '[col_name_tot]');
-	</script>
-	```
+```html
+<script type="text/javascript">
+row_total('[row_name]', '[row_name_tot]');
+col_total('[col_name]', '[col_name_tot]');
+</script>
+```
 	
 	
 	
