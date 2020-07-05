@@ -2,7 +2,17 @@
 
 ##### After going through multiple scripts on the internet, here is a highly organized script to get sum of rows and columns in a HTML Table.
 
+
+### Included in the Repo:
+| File Description | File Name |
+| --- | --- |
+| Original HTML file | **`table.html`** |
+| Working Prototype | **`row_col_tot.html`** | 
+| The requires JS file | **`table_sum.js`** |
+| Result GIF | **`Result.gif`** | 	 
+
 ---
+
 
 ### Output:
 <img src="https://github.com/KodingWithKunal/web-dev/blob/master/JQuery_Table_Sum/Result.gif?v=3&s=200" title="" alt="Output">
@@ -10,6 +20,7 @@
 > The image shows two different webpages (hence change in title). The first one of a regular HTML table and the second with added row and column for 'Total' along with table_sum.js
 
 ---
+
 
 ### Import:
 ```html
@@ -19,6 +30,7 @@
 ```
 
 ---
+
 
 ### Usage:
 
