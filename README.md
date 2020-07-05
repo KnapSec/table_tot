@@ -15,7 +15,7 @@
 
 
 ### Output:
-<img src="https://github.com/KodingWithKunal/web-dev/blob/master/JQuery_Table_Sum/Result.gif?v=3&s=200" title="" alt="Output">
+<img src="https://github.com/KodingWithKunal/table_tot/blob/master/Result.gif?s=200" title="" alt="Output">
 
 > The image shows two different webpages (hence change in title). The first one of a regular HTML table and the second with added row and column for 'Total' along with table_sum.js
 
