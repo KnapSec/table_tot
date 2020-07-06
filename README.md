@@ -25,7 +25,7 @@
 ### Import:
 ```html
 <!-- Indside <body> </body> -->
-<script src="jquery-3.5.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="table_sum.js"></script>
 ```
 
